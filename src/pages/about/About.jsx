@@ -1,8 +1,10 @@
 import React from "react";
+import { motion } from "framer-motion";
+import Inner from "../../components/Layout/Inner/Inner";
 
 const About = () => {
   return (
-    <div>
+    <Inner>
       <h1>About</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
@@ -10,7 +12,7 @@ const About = () => {
         quia doloremque culpa vitae itaque quas, atque consectetur nesciunt
         perferendis praesentium.
       </p>
-    </div>
+    </Inner>
   );
 };
 

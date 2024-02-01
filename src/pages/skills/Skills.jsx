@@ -1,8 +1,9 @@
 import React from "react";
+import Inner from "../../components/Layout/Inner/Inner";
 
 const Skills = () => {
   return (
-    <div>
+    <Inner>
       <h1>Skills</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
@@ -10,7 +11,7 @@ const Skills = () => {
         quia doloremque culpa vitae itaque quas, atque consectetur nesciunt
         perferendis praesentium.
       </p>
-    </div>
+    </Inner>
   );
 };
 
