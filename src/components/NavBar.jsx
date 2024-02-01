@@ -9,14 +9,19 @@ const NavBar = () => {
       id: 1,
     },
     {
+      name: "Skills",
+      to: "/skills",
+      id: 2,
+    },
+    {
       name: "Projects",
       to: "/projects",
-      id: 2,
+      id: 3,
     },
     {
       name: "Contact",
       to: "/contact",
-      id: 3,
+      id: 4,
     },
   ];
 
@@ -25,9 +30,7 @@ const NavBar = () => {
       <ul>
         {navBar.map((nav) => (
           <li key={nav.id}>
-            <NavLink>
-              {nav.to} {nav.name}
-            </NavLink>
+            <NavLink to={nav.to}>{nav.name}</NavLink>
           </li>
         ))}
       </ul>

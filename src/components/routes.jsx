@@ -1,23 +1,34 @@
+import Skills from "../pages/Skills/Skills";
+import About from "../pages/about/About";
+import Contact from "../pages/contact/Contact";
+import PageNotFound from "../pages/pagenotfound/PageNotFound";
+import Projects from "../pages/projects/Projects";
+
 const routes = [
   {
     path: "/",
-    name: <About />,
+    element: <About />,
     id: 1,
   },
   {
     path: "/skills",
-    name: <Skills />,
+    element: <Skills />,
     id: 2,
   },
   {
+    path: "/projects",
+    element: <Projects />,
+    id: 4,
+  },
+  {
     path: "/contact",
-    name: <Contact />,
-    id: 3,
+    element: <Contact />,
+    id: 4,
   },
   {
     path: "*",
-    name: <PageNotFound />,
-    id: 4,
+    element: <PageNotFound />,
+    id: 5,
   },
 ];
 
