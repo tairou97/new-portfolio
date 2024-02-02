@@ -27,7 +27,7 @@ const NavBar = () => {
 
   return (
     <nav>
-      <ul>
+      <ul className="nav">
         {navBar.map((nav) => (
           <li key={nav.id}>
             <NavLink to={nav.to}>{nav.name}</NavLink>
