@@ -4,13 +4,32 @@ import Curve from "../../components/Layout/Curve/Curve";
 const Contact = () => {
   return (
     <Curve>
-      <h1 className="h1">Contact</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
-        corrupti architecto odio aliquam quasi ipsam tempore esse porro incidunt
-        quia doloremque culpa vitae itaque quas, atque consectetur nesciunt
-        perferendis praesentium.
-      </p>
+      <h1 style={{ margin: "30px 0 30px 20px" }}>Contact</h1>
+      <div style={{ display: "flex" }}>
+        <p style={{ margin: "0 20px" }}>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+          corrupti architecto odio aliquam quasi ipsam tempore esse porro
+          incidunt quia doloremque culpa vitae itaque quas, atque consectetur
+          nesciunt perferendis praesentium. Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Facilis corrupti architecto odio aliquam
+          quasi ipsam tempore esse porro incidunt quia doloremque culpa vitae
+          itaque quas, atque consectetur nesciunt perferendis praesentium. Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Facilis corrupti
+          architecto odio aliquam quasi ipsam tempore esse porro incidunt quia
+          doloremque culpa vitae itaque quas, atque consectetur nesciunt
+          perferendis praesentium.
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+          corrupti architecto odio aliquam quasi ipsam tempore esse porro
+          incidunt quia doloremque culpa vitae itaque quas, atque consectetur
+          nesciunt perferendis praesentium. Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Facilis corrupti architecto odio aliquam
+          quasi ipsam tempore esse porro incidunt quia doloremque culpa vitae
+          itaque quas, atque consectetur nesciunt perferendis.
+        </p>
+      </div>
     </Curve>
   );
 };

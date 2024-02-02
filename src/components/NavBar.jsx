@@ -27,9 +27,9 @@ const NavBar = () => {
 
   return (
     <nav>
-      <ul className="nav">
+      <ul style={{ display: "flex", margin: "20px" }}>
         {navBar.map((nav) => (
-          <li key={nav.id}>
+          <li style={{ margin: "10px" }} key={nav.id}>
             <NavLink to={nav.to}>{nav.name}</NavLink>
           </li>
         ))}
